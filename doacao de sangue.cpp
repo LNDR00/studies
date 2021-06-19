@@ -7,6 +7,7 @@ main () {
 	int idade,resfriado,alimentado;
 	float peso;
 	
+	//entrada
 	printf("Digite o nome: ");
 	scanf("%s", &nome);
 	printf("Digite a idade: ");
@@ -18,6 +19,7 @@ main () {
 	printf("Esta resfriado? (1) Sim ; (2) Nao : ");
 	scanf("%d", &resfriado);
 	
+	//processamento e saida
 	if (idade>=16 && idade<=69 && peso>=50 && alimentado==1 && resfriado==2) {
 		printf("\n%s, voce esta APTO!\n", nome);
 	}else {
